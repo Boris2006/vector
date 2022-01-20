@@ -9,7 +9,7 @@ void itc_pos_neg_analysis_lst(const vector <int> &a){
     f = b.size();
     cout << "Положительные: Отрицательные:" << endl;
     cout << "Количество чисел: " << d.size() << ", Количество чисел:" << b.size() << endl;
-    cout << "Максимальная цифра: " << maxch(d) << ", Максимальная цифра: " << maxch(b) << "," << endl;
+    cout << "Максимальная цифра: " << max_char(d) << ", Максимальная цифра: " << max_char(b) << "," << endl;
     cout << "Минимальная цифра: " << min_char(d) << ", Минимальная цифра: " << min_char(b) << "," << endl;
     cout << "Сумма чисел: " << itc_sumlst(d) << ", Сумма чисел: "<< itc_sumlst(b) << "," << endl;
     cout << "Среднее значение: " << itc_sumlst(d) / d.size() << " Среднее значение: " << g / f << endl;
