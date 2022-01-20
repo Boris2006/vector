@@ -17,4 +17,5 @@ void itc_pos_neg_separator_lst(const vector <int> &a, vector <int> &b, vector <i
 int max_char(vector <int> &b);
 int min_char(vector <int> &b);
 void itc_odd_even_analysis_lst(const vector <int> &a);
+itc_pos_neg_analysis_lst(const vector <int> &a);
 #endif // MIDDLE_H_INCLUDED
